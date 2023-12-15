@@ -23,5 +23,5 @@ class Person implements IPerson, IAge {
 }
 
 export function Demo() {
-  const person = new Person("Fred", "ABCDEF");
+  const person = new Person("Fred", 1, "2");
 }

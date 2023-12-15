@@ -7,3 +7,7 @@ export function Demo() {
   type NestedNumberArray = number[][];
   const myArray: NestedNumberArray = [[1, 2, 3]];
 }
+
+// compile with
+// cd /workspaces/typescript-esst-2602289/03_05
+// npx tsc -p .

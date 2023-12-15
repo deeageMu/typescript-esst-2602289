@@ -4,8 +4,16 @@ export function Demo() {
 
   let myString: string;
   myString = foobar;
-  myString = foobar_unknown; // funktioniert nicht
+  // myString = foobar_unknown; // funktioniert nicht
 
   // unknown = keine schnittmenge mit typen
   // any = schnittmenge mit allen typen (chamäleon)
+
+  const nimmtNurString = (arg1: string) => {
+      return arg1;
+
+  }
+
+  nimmtNurString(foobar);
+
 }
